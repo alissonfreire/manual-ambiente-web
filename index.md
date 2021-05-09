@@ -269,6 +269,14 @@ $ php artisan migrate
 
 Se a saída for algo parecido com o exemplo abaixo quer dizer que o PHP do container _workspace_ conseguiu se conectar corretamente com o MySQL do container **MYSQL** e criou a tabela de usuários no banco que você criou pelo phpMyAdmin.
 
+```text
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table (1,823.31ms)
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table (1,861.08ms)
+Migrating: 2019_08_19_000000_create_failed_jobs_table
+Migrated:  2019_08_19_000000_create_failed_jobs_table (1,867.42ms)
+```
 
 > <span style="color:#00dcff">INFO:</span> Recomendação do canal do Youtube focado em PHP e Laravel [Beer And Code](https://www.youtube.com/c/BeerandCode/featured)
 
