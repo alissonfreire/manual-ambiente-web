@@ -72,7 +72,7 @@ Um _container_ é uma tecnologia que permite empacotar um software e todas as su
 
 ### Windows
 
-Para instalar no Windows é necessário ativar o **WSL2** ou _Windows Subsystem for Linux version 2_ [veja mais](https://docs.microsoft.com/pt-br/windows/wsl/about). Em seguida será preciso instalar uma _distribuição Linux_ por meio da _Windows Store_, de preferência o **Ubuntu**. Após a intalação e configuração da distribuição Linux no WLS basta serguir os passo aqui abaixo da instalação no [ambiente Linux.](#linux)
+Para instalar no Windows é necessário ativar o **WSL2** ou _Windows Subsystem for Linux version 2_ [veja mais](https://docs.microsoft.com/pt-br/windows/wsl/about). Em seguida será preciso instalar uma _distribuição Linux_ por meio da _Windows Store_, de preferência o **Ubuntu**. Após a intalação e configuração da distribuição Linux no WLS. Baixe e instale o [Docker](https://docs.docker.com/docker-for-windows/install/).
 
 ### Linux
 
@@ -318,6 +318,8 @@ O arquivo _hosts_ é usado ​​para resolver nomes de hosts antes do DNS. Seu 
 - E no Linux em <span style="color:orange">"/etc/hosts"</span>.
 
 Edite o arquivo com permissão de administrador adicionando no final do arquivo "127.0.0.1 {dominio-do-projeto}.test".
+
+![Arquivo hosts](images/screenshots/hosts-file-windows.png)
 
 Agora reinicie o container do serviço do Apache.
 
